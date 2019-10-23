@@ -1,0 +1,23 @@
+{
+  "name": "ocr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "multer": "^1.4.1",
+    "nodemon": "^1.19.4",
+    "pdfkit": "^0.10.0",
+    "popper.js": "^1.16.0",
+    "tesseract.js": "^1.0.19"
+  }
+}
