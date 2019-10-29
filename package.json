@@ -19,5 +19,13 @@
     "pdfkit": "^0.10.0",
     "popper.js": "^1.16.0",
     "tesseract.js": "^1.0.19"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravilochan/OCR.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ravilochan/OCR/issues"
+  },
+  "homepage": "https://github.com/Ravilochan/OCR#readme"
 }
