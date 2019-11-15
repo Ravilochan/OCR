@@ -98,21 +98,16 @@
                      <div class="col-sm-4 text-center my-2 my-sm-0">
             <!-- <p class="comment-count"><span class="align-middle"><i class="fa fa-comment"></i></span> 06 Comments</p> -->
                      </div>
-                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                     </ul>
+                  
                   </div>
                <div class="row"> 
             <div class="col-lg-4">
                <div class="blog_right_sidebar">
                   <div class="single_sidebar_widget search_widget">
-                     <form action="/download">
+                    <!--<form action="/download">
                         <button class="button rounded-0 primary-bg text-white w-100 btn_1 boxed-btn"
                            type="submit">Download PDF</button>
-                     </form>
+                     </form>-->
                     </div>
                </div></div>
                <div class="col-lg-4 ml-3">
@@ -136,72 +131,103 @@
    </section>
    <!--================ Blog Area end =================-->
 
-    <!-- footer_start -->
-    <footer class="footer footer_bg_1">
-      <div class="circle_ball d-none d-lg-block">
-          <img src="img/banner/footer_ball.png" alt="">
-      </div>
-          <div class="footer_top">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-xl-4 col-md-4 col-lg-4">
-                          <div class="footer_widget">
-                              <h3 class="footer_title">
-                                      Follow Us
-                              </h3>
-                              <ul>
-                                  <li><a target="_blank" href="#">Facebook</a></li>
-                                  <li><a target="_blank" href="#">Twitter</a></li>
-                                  <li><a target="_blank" href="#">Instagram</a></li>
-                                  <li><a target="_blank" href="#">Youtube</a></li>
-                              </ul>
-  
-                          </div>
-                      </div>
-                      <div class="col-xl-4 col-md-4 col-lg-4">
-                          <div class="footer_widget">
-                              <h3 class="footer_title">
-                                      Links
-                              </h3>
-                              <ul>
-                                  <li><a target="_blank" href="schedule.html">Schedule</a></li>
-                                  <li><a target="_blank" href="speakers.html">Speakers</a></li>
-                                  <li><a target="_blank" href="contact.html">Contact</a></li>
-                              </ul>
-                          </div>
-                      </div>
-                      <div class="col-xl-4 col-md-4 col-lg-4">
-                          <div class="footer_widget">
-                              <h3 class="footer_title">
-                                      Venue
-                              </h3>
-                              <p>
-                                  200, D-block, Green lane USA <br>
-                                  edumark@contact.com <br>
-                                  +10 367 467 8934
-                                  
-                              </p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <div class="copy-right_text">
-              <div class="container">
-                  <div class="footer_border"></div>
-                  <div class="row">
-                      <div class="col-xl-12">
-                          <p class="copy_right text-center">
-                              
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.instagram.com/ravilochan2000/" target="_blank"> Ravilochan </a>
+    <!-- resister_book_start -->
+    <div class="resister_book resister_bg_1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="resister_text text-center">
+                            <h3> Upload the image here  <br>
+                                and Run OCR </h3>
+                                <form
+                                id="frmUploader"
+                                enctype="multipart/form-data"
+                                action="/upload"
+                                method="post"
+                              >
+                              <div class="row ml-auto" >
+                                <input class ="boxed-btn-white ml-auto " type="file" name="image" multiple />
+                          
+                                <input class ="boxed-btn-white ml-auto" type="submit" name="submit" id="btnSubmit" value=" Run OCR " /></div>
+                              </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- resister_book_end -->
 
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </footer>
-  <!-- footer_end -->
+     <!-- footer_start -->
+     <footer class="footer footer_bg_1">
+            <div class="circle_ball d-none d-lg-block">
+                <img src="img/banner/footer_ball.png" alt="">
+            </div>
+                <div class="footer_top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xl-4 col-md-4 col-lg-4">
+                                <div class="footer_widget">
+                                    <h3 class="footer_title">
+                                            Follow Us
+                                    </h3>
+                                    <ul> 
+                                        <div class="social_icon">
+                                       
+                                        
+                                        
+                                        <li><a target="_blank" href="https://www.facebook.com/im.lochan.ravilochan.005"">Facebook</a> &nbsp &nbsp<a href="https://www.facebook.com/im.lochan.ravilochan.005"><i class="fa fa-facebook-square"></i></a></li>
+                                        <li><a target="_blank" href="https://twitter.com/BRavilochan">Twitter</a>&nbsp &nbsp<a href="https://twitter.com/BRavilochan"><i class="fa fa-twitter"></i></a></a></li>
+                                        <li><a target="_blank" href="https://www.instagram.com/ravilochan2000/">Instagram</a>&nbsp &nbsp<a href="https://www.instagram.com/ravilochan2000/"><i class="fa fa-instagram"></i></li>
+                                        <li><a target="_blank" href="https://www.linkedin.com/in/ravilochan-balla/">Linkedin</a> &nbsp <a href="https://www.linkedin.com/in/ravilochan-balla/"><i class="fa fa-linkedin"></i></a></li>
+                                        </div>
+                                    </ul>
+        
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-lg-4">
+                                <div class="footer_widget">
+                                    <h3 class="footer_title">
+                                            Links
+                                    </h3>
+                                    <ul>
+                                       
+                                        <li><a target="_blank" href="/contact">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xl-4 col-md-4 col-lg-4">
+                                <div class="footer_widget">
+                                    <h3 class="footer_title">
+                                            Guide
+                                    </h3>
+                                    <p>
+                                        Mr. V Ashwini Kumar <br>
+                                        Head of the Department<br>
+                                        IT Department ,
+                                        MVSR Engineering College<br>
+                                        kumar_it@mvsrec.edu.in
+                                        
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy-right_text">
+                    <div class="container">
+                        <div class="footer_border"></div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <p class="copy_right text-center">
+                    
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.instagram.com/ravilochan2000/" target="_blank"> Ravilochan </a>
+    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
 
      <!-- API for Speaking-->
      <script src="https://code.responsivevoice.org/responsivevoice.js?key=HVyByr7B"></script>
