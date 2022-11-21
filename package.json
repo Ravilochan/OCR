@@ -18,7 +18,7 @@
     "nodemon": "^1.19.4",
     "pdfkit": "^0.10.0",
     "popper.js": "^1.16.0",
-    "tesseract.js": "^1.0.19"
+    "tesseract.js": "^3.0.3"
   },
   "repository": {
     "type": "git",
