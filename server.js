@@ -4,7 +4,7 @@ const multer = require("multer");
 const app = express();
 const fs = require("fs");
 const pdf = require("pdfkit");
-var Tesseract = require("tesseract.js");
+const Tesseract = require("tesseract.js");
 
 //middlewares
 app.set("view engine", "ejs");
@@ -15,7 +15,7 @@ app.use(express.json());
 
 const PORT = process.env.PORT | 5000;
 
-var Storage = multer.diskStorage({
+const Storage = multer.diskStorage({
   destination: (req, file, callback) => {
     callback(null, __dirname + "/images");
   },
@@ -24,9 +24,9 @@ var Storage = multer.diskStorage({
   }
 });
 
-var upload = multer({
+const upload = multer({
   storage: Storage,
-  fileFilter: function(req, file, cb) {
+  fileFilter: function (req, file, cb) {
     checkfiletype(file, cb);
   }
 }).single("image");
@@ -73,10 +73,10 @@ app.post("/upload", (req, res) => {
           }
         );
         Tesseract.recognize(image)
-          .progress(function(p) {
+          .progress(function (p) {
             console.log("progress", p);
           })
-          .then(function(result) {
+          .then(function (result) {
             // res.send(result.text);
             res.render("display", {
               data: result.text,
@@ -110,7 +110,7 @@ app.get("/download", (req, res) => {
   res.download(downloadpath);
 });
 
-app.get("/showdata", (req, res) => {});
+app.get("/showdata", (req, res) => { });
 
 app.listen(PORT, () => {
   console.log(`Server running on Port ${PORT}`);
