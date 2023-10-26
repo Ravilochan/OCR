@@ -433,15 +433,16 @@ Thus software can be atomized to a higher level.
 ## REFERENCES
 
 Online References:
-• Dev ED YouTube (<https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q>)
-• <http://www.ieeexplore.com>
-• <http://www.codeproject.com>
-• <http://www.fadooengineers.com>
-• <http://www.scribd.com>
-• <http://www.stackoverflow.com>
-• <https://github.com/Ravilochan/OCR.git>
-• <https://github.com/Ravilochan/tesseract.js.git>
-• <https://github.com/Ravilochan/pytesseract.git>
+-Dev ED YouTube (<https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q>)
+- <http://www.ieeexplore.com>
+- <http://www.codeproject.com>
+- <http://www.fadooengineers.com>
+- <http://www.scribd.com>
+- <http://www.stackoverflow.com>
+- <https://github.com/Ravilochan/OCR.git>
+- <https://github.com/Ravilochan/tesseract.js.git>
+- <https://github.com/Ravilochan/pytesseract.git>
+  
 Books Referred:
 
 1. Using Neural Networks to Create an Adaptive Character Recognition System
