@@ -433,7 +433,7 @@ Thus software can be atomized to a higher level.
 ## REFERENCES
 
 Online References:
--Dev ED YouTube (<https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q>)
+- Dev ED YouTube (<https://www.youtube.com/channel/UClb90NQQcskPUGDIXsQEz5Q>)
 - <http://www.ieeexplore.com>
 - <http://www.codeproject.com>
 - <http://www.fadooengineers.com>
