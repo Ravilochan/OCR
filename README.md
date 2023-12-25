@@ -34,10 +34,10 @@ Nadergul, Saroornagar Mandal, Hyderabad-501510
           Finally, we express our heartfelt thanks to each and every one who directly and indirectly helped us in the successful completion of this project work.
 
 
-                                                                                                            B Ravilochan
-                                                                                                   M.V.S.R ENGINEERING COLLEGE
-                                                                                                   (Affiliated to Osmania University, Hyderabad. Recognized by AICTE)
-                                                                                        Nadergul, Saroornagar Mandal, Hyderabad-501510
+         B Ravilochan
+         M.V.S.R ENGINEERING COLLEGE
+         (Affiliated to Osmania University, Hyderabad. Recognized by AICTE)
+         Nadergul, Saroornagar Mandal, Hyderabad-501510
 
 ## ABSTRACT
 
