@@ -18,7 +18,7 @@
     "multer": "^2.0.1",
     "pdfkit": "^0.13.0",
     "popper.js": "^1.16.1",
-    "tesseract.js": "^3.0.3"
+    "tesseract.js": "^7.0.0"
   },
   "repository": {
     "type": "git",
