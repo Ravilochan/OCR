@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/Ravilochan/OCR#readme",
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^3.1.14"
   }
 }
